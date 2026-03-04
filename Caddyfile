@@ -1,3 +1,0 @@
-:80 {
-    reverse_proxy langflow:10000
-}

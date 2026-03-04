@@ -1,0 +1,19 @@
+# Secrets — never commit
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Langflow local DB / cache
+*.db
+*.sqlite
+langflow.log

@@ -8,4 +8,4 @@ ENV LANGFLOW_PORT=7860
 
 EXPOSE 7860
 
-CMD ["langflow", "run", "--host", "0.0.0.0", "--port", "7860"]
+CMD ["sh", "-c", "langflow run --host 0.0.0.0 --port ${PORT:-7860}"]
